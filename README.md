@@ -30,11 +30,11 @@ The OptionStrategy class enables users to effortlessly execute the following opt
 
 *Synthetic Short*
 
-For each strategy, the class generates visual representations of the profit and loss profile as a function of the future stock price at the expiration date of the option. It also provides information on the cost/credit of the strategy, the stock price intervals for loss and profit, and prompts the user for a future stock price to determine the strategy's output.
+For each strategy, the class generates visual representations of the profit and loss profile as a function of the future stock price at the expiration date of the option. It also provides information on the cost/credit of the strategy (given the current stock price and current RF rate), the stock price intervals for loss and profit, and prompts the user for a future stock price to determine the strategy's output.
 
 # Usage and Instructions
 To utilize the OptionStrategy class, users can instantiate it and then call the specific functions corresponding to the desired trading strategy.
-Users can initialize the OptionStrategy class with specific parameters (stock price, risk-free rate, and time to maturity) and leverage functions.
+Users can initialize the OptionStrategy class with specific parameters (current stock price, risk-free rate, and time to maturity) and leverage functions.
 
 
 # Conclusion
