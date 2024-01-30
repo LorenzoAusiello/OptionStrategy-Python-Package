@@ -6,22 +6,34 @@ The OptionStrategy class encapsulates a range of user-friendly functions for imp
 The OptionStrategy class enables users to effortlessly execute the following option trading strategies:
 
 *Long Condor using Calls*
+
 *Short Condor using Calls*
+
 *Bull Call Spread*
+
 *Bear Call Spread*
+
 *Long Butterfly using Calls*
+
 *Short Butterfly using Calls*
+
 *Long Strangle*
+
 *Short Strangle*
+
 *Long Straddle*
+
 *Short Straddle*
+
 *Synthetic Long*
+
 *Synthetic Short*
 
 For each strategy, the class generates visual representations of the profit and loss profile as a function of the future stock price at the expiration date of the option. It also provides information on the cost/credit of the strategy, the stock price intervals for loss and profit, and prompts the user for a future stock price to determine the strategy's output.
 
 ### Usage and Instructions
 To utilize the OptionStrategy class, users can instantiate it and then call the specific functions corresponding to the desired trading strategy.
+Users can initialize the OptionStrategy class with specific parameters (stock price, risk-free rate, and time to maturity) and leverage functions.
 
 
 ### Conclusion
